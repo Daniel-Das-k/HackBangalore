@@ -31,3 +31,24 @@ OpenAI GPT: Enhances the chatbot’s ability to understand and respond to SME-re
 ### Prerequisites
 Python 3.11: Ensure Python is installed on your system.
 Conda: Recommended for managing the project environment.
+
+### Installation
+
+1. **Clone the Repository**:
+
+   ```bash
+   https://github.com/Daniel-Das-k/HackBangalore.git
+   cd HackBangalore
+
+2.  **Create and Activate the Environment**:
+
+   ```bash
+   conda create -n sme-env python=3.11
+   conda activate sme-env
+
+3.  **Install Dependencies**:
+
+   ```bash
+   pip install -r requirements.txt
+
+
