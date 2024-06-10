@@ -41,14 +41,14 @@ To run the SME Financial Inclusion Project locally, follow these steps:
    cd SME-Financial_Inclusion
 3. **Install Dependencies**:
    ```bash
-   pip install -r requirements.txt
+   pip3 install -r requirements.txt
 4. **Running the Applications:**:
 * To Run the Chatbot:
    ```bash
-   python chatbot.py
+   python3 chatbot.py
 + To Run the Credit Score Prediction System:
    ```bash
-   python creditscore.py
+   python3 creditscore.py
 
 ## Usage
 
