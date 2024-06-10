@@ -37,8 +37,8 @@ To run the SME Financial Inclusion Project locally, follow these steps:
    conda activate sme-env
 2. **Clone the Repository**:
    ```bash
-   git clone https://github.com/Daniel-Das-k/HackBangalore.git
-   cd HackBangalore
+   git clone https://github.com/Daniel-Das-k/SME-Financial_Inclusion.git
+   cd SME-Financial_Inclusion
 3. **Install Dependencies**:
    ```bash
    pip install -r requirements.txt
