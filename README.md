@@ -27,28 +27,33 @@ Langchain: Powers the chatbot, enabling advanced natural language processing and
 FAISS: Provides efficient similarity search and clustering for the chatbot’s information retrieval system.
 OpenAI GPT: Enhances the chatbot’s ability to understand and respond to SME-related queries with the help of advanced language models.
 
-## Getting Started
-### Prerequisites
-Python 3.11: Ensure Python is installed on your system.
-Conda: Recommended for managing the project environment.
+## How to Run
 
-### Installation
+To run the SME Financial Inclusion Project locally, follow these steps:
 
-1. **Clone the Repository**:
-
-   ```bash
-   https://github.com/Daniel-Das-k/HackBangalore.git
-   cd HackBangalore
-
-2.  **Create and Activate the Environment**:
-
+1. **Set Up Conda Environment**:
    ```bash
    conda create -n sme-env python=3.11
    conda activate sme-env
-
-3.  **Install Dependencies**:
-
+2. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/Daniel-Das-k/HackBangalore.git
+   cd HackBangalore
+3. **Install Dependencies**:
    ```bash
    pip install -r requirements.txt
+4. **Running the Applications:**:
+   ***To Run the Chatbot***:
+   ```bash
+   python chatbot.py
+5. ****To Run the Credit Score Prediction System****:
+   ```bash
+   python creditscore.py
 
+## Usage
 
+### Credit Score Prediction System
+The system analyzes financial data to predict credit scores for SMEs, helping financial institutions make better lending decisions.
+
+### SME Information Chatbot
+The chatbot uses machine learning to provide SMEs with relevant information by processing queries related to financing, loan applications, and more.
