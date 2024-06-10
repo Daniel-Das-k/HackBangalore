@@ -1,4 +1,4 @@
-# SME Financial Inclusion Project
+# SME Financial Inclusion 
 
 ## Overview
 The SME Financial Inclusion Project aims to enhance the accessibility of financial services for Small and Medium Enterprises (SMEs). This repository features two key components:
