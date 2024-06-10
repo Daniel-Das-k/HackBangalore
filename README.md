@@ -31,23 +31,23 @@ OpenAI GPT: Enhances the chatbot’s ability to understand and respond to SME-re
 
 To run the SME Financial Inclusion Project locally, follow these steps:
 
-1. **Set Up Conda Environment**:
+1. ** Set Up Conda Environment **:
    ```bash
    conda create -n sme-env python=3.11
    conda activate sme-env
-2. **Clone the Repository**:
+2. ** Clone the Repository **:
    ```bash
    git clone https://github.com/Daniel-Das-k/HackBangalore.git
    cd HackBangalore
-3. **Install Dependencies**:
+3. ** Install Dependencies **:
    ```bash
    pip install -r requirements.txt
-4. **Running the Applications:**:
-   *To Run the Chatbot:
+4. ** Running the Applications: **:
+   * To Run the Chatbot:
    ```bash
    python chatbot.py
    
-   *To Run the Credit Score Prediction System:
+   * To Run the Credit Score Prediction System:
    ```bash
    python creditscore.py
 
